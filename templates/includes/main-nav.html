@@ -22,38 +22,47 @@
                 Scuba
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="scuba-link">
-                <a href="{% url 'products' %}?category=activewear,essentials,jeans,shirts" class="dropdown-item">All Scuba</a>
+                <a href="{% url 'products' %}?category=regulators,bcds,computers,divemask,divesnorkle,divefins,accessories" class="dropdown-item">All Scuba</a>
                 <a href="{% url 'products' %}?category=regulators" class="dropdown-item">Regulators</a>
                 <a href="{% url 'products' %}?category=bcds" class="dropdown-item">BCDs</a>
                 <a href="{% url 'products' %}?category=computers" class="dropdown-item">Computers</a>
                 <a href="{% url 'products' %}?category=divemask" class="dropdown-item">Dive Mask</a>
                 <a href="{% url 'products' %}?category=divesnorkle" class="dropdown-item">Dive Snorkle</a>
                 <a href="{% url 'products' %}?category=divefins" class="dropdown-item">Dive Fins</a>
+                <a href="{% url 'products' %}?category=accessories" class="dropdown-item">Accessories</a>
                 
                 
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Homeware
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="divewear-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Divewear
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?category=bed_bath" class="dropdown-item">Bed &amp; Bath</a>
-                <a href="{% url 'products' %}?category=kitchen_dining" class="dropdown-item">Kitchen &amp; Dining</a>
-                <a href="{% url 'products' %}?category=bed_bath,kitchen_dining" class="dropdown-item">All Homeware</a>
+                <a href="{% url 'products' %}?category==wetsuits,drysuits,rashguards,hoods,gloves,diveboots" class="dropdown-item">All Divewear</a>
+                <a href="{% url 'products' %}?category=wetsuits" class="dropdown-item">Wetsuits</a>
+                <a href="{% url 'products' %}?category=drysuits" class="dropdown-item">Drysuits</a>
+                <a href="{% url 'products' %}?category=rashguards" class="dropdown-item">Rashguards</a>
+                <a href="{% url 'products' %}?category=hoods" class="dropdown-item">Hoods</a>
+                <a href="{% url 'products' %}?category=gloves" class="dropdown-item">Gloves</a>
+                <a href="{% url 'products' %}?category=diveboots" class="dropdown-item">Dive Boots</a>
+                
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
+            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="learntoscubadiveorsnorkle-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Learn to Scuba Dive or Snorkle
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
-                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
-                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
-                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=snorkletrip,discoverscuba,boatdives,nightdives,wreckdives,cavedives" class="dropdown-item">All Diving</a>
+                <a href="{% url 'products' %}?category=snorkletrip" class="dropdown-item">Snorkle Trip</a>
+                <a href="{% url 'products' %}?category=discoverscuba" class="dropdown-item">Discover Scuba</a>
+                <a href="{% url 'products' %}?category=boatdives" class="dropdown-item">Boat Dives</a>
+                <a href="{% url 'products' %}?category=nightdives" class="dropdown-item">Night Dives</a>
+                <a href="{% url 'products' %}?category=wreckdives" class="dropdown-item">Wreck Dives</a>
+                <a href="{% url 'products' %}?category=cavedives" class="dropdown-item">Cave Dives</a>
             </div>
         </li>
     </ul>
