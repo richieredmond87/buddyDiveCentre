@@ -28,7 +28,7 @@ SECRET_KEY = 'm)n)qnp256_-&l+asp62q^v%!#-*_l8$_-3&wo@!i6^1e$rn2&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['buddy-dive-centre.herokuapp.com', 'localhost']
 
 
 # Application definition
