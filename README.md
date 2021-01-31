@@ -1,45 +1,123 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
-Welcome richieredmond87,
+# Buddy Dive Centre
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+In the project I wanted to create a website where you can order scuba diving equiptment with a local Dive company. 
+It is the one stop shop for all scuba diving or snorkeling equiptment and booking different types of scuba dives or snorkeling.
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* Veiw the Code for the Website on Github here:
+https://github.com/richieredmond87/buddyDiveCentre
+* Veiw the Website on Heroku here:
+https://buddy-dive-centre.herokuapp.com/
 
-`python3 -m http.server`
+##Table of Contents
+1. UX
+    * Project Goals
+    * User Goals
+    * Wireframes
 
-A blue button should appear to click: *Make Public*,
+1. Features
+    * Exisiting Features
+    * Features Left to Implement
 
-Another blue button should appear to click: *Open Browser*.
+1. Technologies used
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. Testing
 
-A blue button should appear to click: *Make Public*,
+1. Deployment
 
-Another blue button should appear to click: *Open Browser*.
+1. Credits
+    * Content
+    * Media
+    * Code
+    * Acknowledgements
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## UX
+### Project Goals
+The primary goal of this website is for people to book scuba dives and snorkel trips but also buy recreational equiptment .
+### User Goals
+* Book a Scuba Dive.
+* Book a Snorkel.
+* Buy a range of recreational equiptment.
+* Have an profile with the company a view previous orders.
+* 
+### Wireframes
+* Unfortunately my subscription with Balsamic has expired so cant provide any wire frames.
 
-## Updates Since The Instructional Video
+## Features
+### Exisiting Features
+* Greeted by Hompepage
+* If you have an account you can log in 
+* If you do not you can register and confirm the confirmation email
+* Can do quest checkout with out registering
+* Browse products by category or all products
+* Add items to bag 
+* Edit or Delete items in the bag
+* You can purchase items
+* Confirmation order number sent by email to your own.
+* If superuser can add, edit and delte products
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Features left to Implement
+* I would like to add more description to products 
+* I would of liked to add a calendar for booking scuba dives or snorkeling 
+* Resize one or two of the product images
+* Change the $ to € 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Technologies
+* I used  the following technologies:
+1. HTML
+1. CSS
+1. JavaScript 
+1. Bootstrap
+1. Heroku
+1. jQuery
+1. Flask 
+1. Amazon AWS 
+1. Django
+1. Stripe
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Testing
+* I tested the colour scheme here: https://coolors.co/
+* I tested the JavaScript here: https://jshint.com/
+* I tested the CSS here: https://jigsaw.w3.org/css-validator/
+* I tested the HTML here: https://validator.w3.org/
+* I tested the Python here: http://pep8online.com/checkresult
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Deployment
+To Deploy this project:
+1. Log into GitHub.
+1. From the list of repositories on the screen, select richieredmond87/buddyDiveCentre.
+1. From the menu items near the top of the page, select Settings.
+1. Scroll down to the GitHub Pages section.
+1. Under Source click the drop-down menu labelled None and select Master Branch
+1. On selecting Master Branch the page is automatically refreshed, buddyDiveCentre! is now deployed.
+1. Scroll back down to the GitHub Pages section to retrieve the link to the deployed website.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* Below is the deployed version:
+https://buddy-dive-centre.herokuapp.com/
 
---------
 
-Happy coding!
+## Credits
+* I used the following aids:
+1. https://materializecss.com/
+1. https://fontawesome.com/icons?d=gallery
+1. https://randomkeygen.com/
+1. https://cdnjs.com/
+1. https://s3.console.aws.amazon.com/s3/buckets/
+1. https://dashboard.stripe.com/
+1. https://dashboard.heroku.com/
+### Media
+ 
+### Code 
+
+### Acknowledgements
+* I done the Project Boutique Ado  project and didnt really understand alot of it as things didnt work and I was constanly on tutor support 
+getting help, So I decided to do the mile-stone project by watching the  videos and lessons to get a better understanding 
+* I started here:
+https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/d3188bf68530497aa5fba55d07a9d7d7/?activate_block_id=block-v1%3ACodeInstitute%2BFSF_102%2BQ1_2020%2Btype%40sequential%2Bblock%40d3188bf68530497aa5fba55d07a9d7d7*
+
+ And followed the rest of the course videos but changing them to make the website my own and sell what i visioned it to lok like
