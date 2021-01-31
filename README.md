@@ -1,5 +1,8 @@
 <img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
 
+![buddyDiveCentre](https://user-images.githubusercontent.com/55495783/106389378-ddcaae00-63da-11eb-93af-6ce272432b00.PNG)
+
+
 # Buddy Dive Centre
 
 In the project I wanted to create a website where you can order scuba diving equipment with a local Dive company. 
