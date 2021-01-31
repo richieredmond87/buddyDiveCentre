@@ -2,8 +2,8 @@
 
 # Buddy Dive Centre
 
-In the project I wanted to create a website where you can order scuba diving equiptment with a local Dive company. 
-It is the one stop shop for all scuba diving or snorkeling equiptment and booking different types of scuba dives or snorkeling.
+In the project I wanted to create a website where you can order scuba diving equipment with a local Dive company. 
+It is the one stop shop for all scuba diving or snorkeling equipment and booking different types of scuba dives or snorkeling.
 
 
 * Veiw the Code for the Website on Github here:
@@ -35,11 +35,11 @@ https://buddy-dive-centre.herokuapp.com/
 
 ## UX
 ### Project Goals
-The primary goal of this website is for people to book scuba dives and snorkel trips but also buy recreational equiptment .
+The primary goal of this website is for people to book scuba dives and snorkel trips but also buy recreational equipment .
 ### User Goals
 * Book a Scuba Dive.
 * Book a Snorkel.
-* Buy a range of recreational equiptment.
+* Buy a range of recreational equipment.
 * Have an profile with the company a view previous orders.
 * 
 ### Wireframes
@@ -50,7 +50,7 @@ The primary goal of this website is for people to book scuba dives and snorkel t
 * Greeted by Hompepage
 * If you have an account you can log in 
 * If you do not you can register and confirm the confirmation email
-* Can do quest checkout with out registering
+* You can do guest checkout with out registering
 * Browse products by category or all products
 * Add items to bag 
 * Edit or Delete items in the bag
@@ -120,4 +120,4 @@ getting help, So I decided to do the mile-stone project by watching the  videos 
 * I started here:
 https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/courseware/4201818c00aa4ba3a0dae243725f6e32/d3188bf68530497aa5fba55d07a9d7d7/?activate_block_id=block-v1%3ACodeInstitute%2BFSF_102%2BQ1_2020%2Btype%40sequential%2Bblock%40d3188bf68530497aa5fba55d07a9d7d7*
 
- And followed the rest of the course videos but changing them to make the website my own and sell what i visioned it to lok like
+ And followed the rest of the course videos but changing them to make the website my own and sell what i envisioned it to look like
